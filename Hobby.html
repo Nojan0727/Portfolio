@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="main.css">
+<head>
+    <title>Hobby</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url(image/Parsi.jpeg);
+            background-size: 120%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
+            color: white;
+            animation: backgroundZoom 30s infinite alternate;
+        }
+
+        @keyframes backgroundZoom {
+            0% {
+                background-size: 110%;
+            }
+            100% {
+                background-size: 120%;
+            }
+        }
+
+        nav {
+            display:flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 3px;
+        }
+
+        nav img {
+            width: 50px;
+        }
+        .container {
+            text-align: center;
+            margin-top: 150px;
+            color: whitesmoke;
+            justify-content: right;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<nav>
+    <a href="index.html" class="logo"><img src="image/logo.png" alt="" width="50px"></a>
+</nav>
+<body>
+    
+  <iframe class="video-container" width="560px" height="320px" allowfullscreen=true  src="https://youtube.com/embed/mJ8ITMci2Gw">
+</iframe>
+<div class="container">
+    <h1>My Hobby</h1>
+    <p>I Started my karting hobby since I was 9 years old</p>
+</div>
+</body>

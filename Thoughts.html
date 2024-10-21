@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="main.css">
+<head>
+    <title>Thoughts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url(image/Parsi.jpeg);
+            background-size: 120%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
+            color: white;
+            animation: backgroundZoom 30s infinite alternate;
+        }
+
+        @keyframes backgroundZoom {
+            0% {
+                background-size: 110%;
+            }
+            100% {
+                background-size: 120%;
+            }
+        }
+
+        nav {
+            display:flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 3px;
+        }
+
+        nav img {
+            width: 50px;
+        }
+        .container {
+            text-align: center;
+            margin-top: 150px;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<nav>
+    <a href="index.html" class="logo"><img src="image/logo.png" alt="" width="40px"></a>
+</nav>
+<body>
+    <div class="container">
+        <h1>Blog/Thoughts</h1>
+        <h1>The Future of IT</h1>
+        <p>An article discussing emerging trends in the tech industry, my thoughts on future developments, and how they may impact my career trajectory.</p>
+        <h1>My Transition from Accounting to IT</h1>
+        <p>A reflection on my career shift, the challenges I faced, and how it shaped my perspective on professional growth and adaptability.</p> 
+    </div>
+</body>
+</html>

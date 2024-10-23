@@ -113,7 +113,7 @@ input[type="datetime-local"] {
 }
 
 input[type="submit"] {
-    background: linear-gradient(135deg, #f06d06, #4a90e2);
+    background: linear-gradient(135deg, #f06d06, #A69E94);
     color: white;
     font-size: 16px;
     padding: 12px;
@@ -124,7 +124,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: linear-gradient(135deg, #4a90e2, #f06d06);
+    background: linear-gradient(135deg, #A69E94, #f06d06);
     transform: translateY(-2px);
 }
 
